@@ -1,4 +1,5 @@
-  # Graph
+
+# Graph
 A simple graph program
 
 ## Functions
@@ -35,6 +36,9 @@ Show the shortest paths from a vertex
 
 path {v} 
 Show the shortest path from vertex A to other vertices: path A  
+
+## Run
+The main method is included in Class Run (in /src) or Run.java (in /bin)
 
 ## Issue
 Though part of the programe uses hash to accelerate, not all functions are using hash.
