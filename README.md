@@ -1,4 +1,5 @@
 
+
 # Graph
 A simple graph program
 
@@ -39,6 +40,42 @@ Show the shortest path from vertex A to other vertices: path A
 
 ## Run
 The main method is included in Class Run (in /src) or Run.java (in /bin)
+
+## Sample Inputs and Outputs
+Input commands to create a graph 
+> vertex A 
+> vertex B 
+> vertex C 
+> vertex D 
+> vertex E 
+> edge 2 A B 
+> edge 3 B C 
+> edge 4 B D 
+> edge 8 A C 
+> edge 1 D C 
+> edge 9 E A 
+> weight 6 A C 
+> -edge E A 
+> -vertex E 
+> contents 
+vertex A B C D  
+edge 2 A B 
+edge 6 A C 
+edge 4 B D 
+edge 3 B C 
+edge 1 D C 
+> topo 
+A B D C  
+> path A 
+A (0) 
+A > B (2) 
+A > B > C (5) 
+A > B > D (6) 
+> path B 
+A (unreachable) 
+B (0) 
+B > C (3) 
+B > D (4) 
 
 ## Issue
 Though part of the programe uses hash to accelerate, not all functions are using hash.
